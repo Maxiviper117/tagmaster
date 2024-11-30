@@ -8,7 +8,7 @@ import sys
 def main():
     try:
         subprocess.run(
-            ["uv", "run", "pyinstaller", "./tagger.py", "--onefile"],
+            ["pyinstaller", "./tagger.py", "--onefile"],
             check=True
         )
     except subprocess.CalledProcessError as e:
