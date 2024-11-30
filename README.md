@@ -23,7 +23,7 @@ TagMaster aggregates empty tag files within your code projects, making it easier
 
 ## Usage
 
-To start TagMaster, run:
+To start TagMaster using python, run:
 ```bash
 python tagger.py
 ```
@@ -35,20 +35,6 @@ python tagger.py
 ```
 
 ## Building the Executable
-
-To build the executable, run the build script:
-
-```bash
-python build-scripts/build.py
-```
-
-### Prerequisites
-
-Ensure that `auto-py-to-exe` is installed:
-
-```bash
-pip install auto-py-to-exe
-```
 
 ### Steps
 
