@@ -10,7 +10,7 @@ TagMaster aggregates empty tag files within your code projects, making it easier
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/tagmaster.git
+    git clone https://github.com/Maxiviper117/tagmaster.git
     ```
 2. Navigate to the project directory:
     ```bash
