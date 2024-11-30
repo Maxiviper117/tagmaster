@@ -36,7 +36,41 @@ To build the executable, run the build script:
 python build-scripts/build.py
 ```
 
-This will generate the executable in the `dist` directory.
+### Prerequisites
+
+Ensure that `auto-py-to-exe` is installed:
+
+```bash
+pip install auto-py-to-exe
+```
+
+### Steps
+
+1. **Navigate to the Project Directory**:
+    ```bash
+    cd tagmaster
+    ```
+
+2. **Activate Your Virtual Environment** (if applicable):
+    ```bash
+    source .venv/bin/activate  # On Unix or macOS
+    .venv\Scripts\activate     # On Windows
+    ```
+
+3. **Run the Build Script**:
+    ```bash
+    python build-scripts/build.py
+    ```
+
+4. **Locate the Executable**:
+    The executable will be generated in the `dist` directory.
+
+    ```bash
+    ls dist/
+    ```
+
+5. **Add to System PATH** (optional):
+    Follow the existing instructions to add the executable to your system's PATH for easy access.
 
 ### Adding to System PATH
 
