@@ -1,0 +1,19 @@
+[project]
+name = "project-tagger"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "auto-py-to-exe>=2.44.4",
+    "click>=8.1.7",
+    "colorama>=0.4.6",
+    "questionary>=2.0.1",
+    "textual>=0.88.0",
+]
+
+[dependency-groups]
+dev = [
+    "pyinstall>=0.1.4",
+]
+
