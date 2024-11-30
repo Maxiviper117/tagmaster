@@ -28,6 +28,12 @@ To start TagMaster, run:
 python tagger.py
 ```
 
+**Important:** Before running the CLI, ensure you have navigated to your project's root directory:
+```bash
+cd /path/to/your/project
+python tagger.py
+```
+
 ## Building the Executable
 
 To build the executable, run the build script:
@@ -96,6 +102,7 @@ pip install auto-py-to-exe
 ## Features
 
 - **Add Tag**: Add a new tag to your project.
+  When you add a tag, an empty tag file is created in the `tags` directory, allowing you to organize and manage project tags effectively.
 - **List Tags**: View all existing tags.
 - **Remove Tag**: Delete a specific tag.
 - **Clear All Tags**: Remove all tags from the project.
