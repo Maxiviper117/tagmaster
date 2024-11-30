@@ -333,6 +333,7 @@ dependencies = [
     { name = "auto-py-to-exe" },
     { name = "click" },
     { name = "colorama" },
+    { name = "pyinstall" },
     { name = "questionary" },
     { name = "textual" },
 ]
@@ -347,6 +348,7 @@ requires-dist = [
     { name = "auto-py-to-exe", specifier = ">=2.44.4" },
     { name = "click", specifier = ">=8.1.7" },
     { name = "colorama", specifier = ">=0.4.6" },
+    { name = "pyinstall", specifier = ">=0.1.4" },
     { name = "questionary", specifier = ">=2.0.1" },
     { name = "textual", specifier = ">=0.88.0" },
 ]
